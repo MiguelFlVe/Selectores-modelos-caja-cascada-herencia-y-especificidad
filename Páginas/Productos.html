@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Portafolio - Miguel Flórez">
+  <meta name="description" content="Se ofrecen servicios de diseño frontend y backend">
+  <meta name="keywords" content="frontend, backend, miguel flórez, portafolio">
+  <link rel="stylesheet" href="../styles.css">
+  <title>Productos</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="Cod_Python.html">Python</a>
+      <a href="Pag_HTML.html">HTML</a>
+      <a href="Productos.html">Productos</a>
+      <a href="Contact.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <fieldset>
+      <legend>Carrito de compras</legend>
+
+      <form action="Recibido_Productos.html">
+        <table>
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Precio</th>
+              <th>Agregar</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td><label for="FEPW">Front end - Página web</label></td>
+              <td>$2.000.000</td>
+              <td><input type="checkbox" id="FEPW"></td>
+            </tr>
+
+            <tr>
+              <td><label for="FEAW">Front end - Aplicación web</label></td>
+              <td>$2.000.000</td>
+              <td><input type="checkbox" id="FEAW"></td>
+            </tr>
+
+            <tr>
+              <td><label for="BE">Back end</label></td>
+              <td>$2.000.000</td>
+              <td><input type="checkbox" id="BE"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div>
+          <label for="Nombre">Nombre:
+            <input type="text" id="Nombre" required>
+          </label>
+        </div>
+
+        <div>
+          <label for="Correo">Correo:
+            <input type="text" id="Correo" required>
+          </label>
+        </div>
+
+        <div>
+          <label for="card">Número y tipo de tarjeta:
+            <input type="number" name="card">
+            
+            <div>
+              <label for="cred">Crédito</label><input type="radio" id="cred" name="card">
+            </div>
+
+            <div>
+              <label for="save">Ahorros</label><input type="radio" id="save" name="card">
+            </div>
+          </label>
+        </div>
+
+        <button type="submit">Comprar</button>
+      </form>
+    </fieldset>
+  </main>
+</body>
+</html>
