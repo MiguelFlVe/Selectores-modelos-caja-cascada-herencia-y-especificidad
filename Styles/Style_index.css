@@ -14,7 +14,7 @@ header nav{
   background-color: darkblue;
 }
 
-header nav a{
+.linkpage{
   background-color: darkblue;
 }
 
@@ -24,20 +24,20 @@ main{
   color: lightblue;
 }
 
-h1{
+#maintitle{
   font-size: 45px;
   text-align: center;
   color: lightblue;
 }
 
-article{
+.mainarticle{
   margin: 10px;
   padding: 10px;
   text-align: left;
   color: white;
 }
 
-fieldset{
+section > fieldset{
   margin: 10px;
   padding: 10px;
   width: fit-content;
@@ -57,6 +57,16 @@ video{
   border-radius: 25px;
 }
 
+h2 ~ ul{
+  margin: 10px;
+  padding: 10px;
+}
+
 audio{
   margin: 10px;
+}
+
+h2 + p{
+  text-align: justify;
+  color: lightgray;
 }
